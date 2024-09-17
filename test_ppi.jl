@@ -1,5 +1,5 @@
 using Test
-include("ppi_simulations.jl")
+include("data/ppi_simulations.jl")
 
 import Test.@testset
 

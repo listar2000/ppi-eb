@@ -1,7 +1,7 @@
 # this file is the actual place where we combine the simulations, predictive models, and estimators
-include("ppi_simulations.jl")
 include("ppi_models.jl")
 include("ppi_estimators.jl")
+include("data/ppi_simulations.jl")
 
 ESTIMATORS = [vanilla_mle, vanilla_ppi, power_tuned_ppi, eb_bt_ppi]
 # Define the estimator names for labeling the x-axis
